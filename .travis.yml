@@ -5,6 +5,7 @@ install:
 - composer install
 script:
 - sh -c "vendor/bin/phpcs web;"
+- sh -c "vendor/bin/phpunit tests;"
 env:
   global:
     secure: Wi+jW+B48DCzFon4M8G3WHAabojuIo1Q/9Jd8Mtw4ZJZpCuykLIDJA7TxR/FC0GAcR20rsEF4eJImZbWxbN6IO2d4+HV3aJAsPI5aOZ/a60ha5l93kCUULbl1w1FCLvieKUcqCnSQdFu2V6FrKw3+JW07+Tas7fIoHD4zY2omD/qks++wOAJH1tzleiru4DPF9Phixk8LnxEr4s9IdFaVoEUw7pYaF+pKdfT+7gDwAh8ipljlKLrivJkk1BCC+1v9mgMYfwxhhOiQnom8svzOFXwSNECDRPFUd/W8k0/bCykNFiqT56lFvj6iVnid2dlza/YLgky1/VPMUMr9f+LL0sumsOwPDLCeQJu3iKPvL00FRTAWE5GwJV+SlMOSI9PcYF+YDUwlUpSehkjIueRSgasTDSZDcR7vkCp0fqV5S0VCJ3NZTZEB+Fhaj7c0rEZK9aF7hXg7ZcKBlnE3WyiC1PZWxlNSHwtxaUjj6EKB4BTp3rP15Ee62KpJomCHIQeOaYBw7DyTg1QyorsHOuGFkDIrNMtxjexY6HJBAcpHhKu/fLymwRk9S9OzjV3q0t6sthrzZvWnYPrkFxv9KUnGS4ZaC5KRMQdQeAMU6qNAfwsZ+d5EloVelPhCPHell3BeRrmEe7eBuoAAlLoexr5cB2pbwWlOUenKz5A/0ycx1U=
