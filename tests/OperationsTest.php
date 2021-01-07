@@ -1,6 +1,5 @@
 <?php declare(strict_types=1);
 use PHPUnit\Framework\TestCase;
-use learninggit;
 
 final class OperationsTest extends TestCase
 {
