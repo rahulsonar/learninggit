@@ -1,9 +1,9 @@
 <?php
 
 /**
+ * @file
  * Index.php
- * php version 7.1
- 
+ * php version 7.4
  * @Description Entry point
  * @category    File
  * @package     Learninggit
