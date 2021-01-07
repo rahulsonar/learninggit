@@ -3,5 +3,8 @@ language: php
 php:
   - 7.1
 
+install:
+  - composer install
+  
 script:
-  - sh -c "~/.composer/vendor/bin/phpcs web;"
+  - sh -c "vendor/bin/phpcs web;"
