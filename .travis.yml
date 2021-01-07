@@ -4,8 +4,7 @@ php:
   - 7.1
 
 install:
-  - composer validate --no-check-all --ansi
-  - composer install --prefer-dist --no-interaction --optimize-autoloader
+  - composer install
   
 script:
   - sh -c "~/.composer/vendor/bin/phpcs web;"
