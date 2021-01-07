@@ -4,4 +4,4 @@ php:
   - 7.1
 
 script:
-  - sh -c ./vendor/bin/phpcs web; fi;"
+  - sh -c "./vendor/bin/phpcs web;"
