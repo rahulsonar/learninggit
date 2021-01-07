@@ -7,4 +7,4 @@ install:
   - composer install
   
 script:
-  - sh -c "~./vendor/bin/phpcs web;"
+  - sh -c "vendor/bin/phpcs web;"
