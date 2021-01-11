@@ -1,5 +1,9 @@
 <?php
 
+require '../vendor/autoload.php';
+use Symfony\Component\Yaml\Yaml;
+
+
 /**
  * @file
  * Index.php
@@ -11,5 +15,8 @@
  * @license     http://www.php.net/license/3_01.txt  PHP License 3.01
  * @link        https://rahulsonar.com
  */
- 
-echo "Hello World!";
+
+
+$value = Yaml::parseFile('../credentials.yml');
+
+print_r($value);
